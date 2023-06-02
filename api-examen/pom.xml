@@ -19,7 +19,11 @@
 	</properties>
 	<dependencies>
 
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
 
 	<modules>
 		<module>
@@ -27,6 +31,12 @@
 		</module>
 		<module>
 			api-movie
+		</module>
+		<module>
+			eureka-server
+		</module>
+		<module>
+			config-server
 		</module>
 	</modules>
 
